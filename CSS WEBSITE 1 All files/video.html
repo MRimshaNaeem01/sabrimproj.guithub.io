@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ENGR.RIMSHA</title>
+	 <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+    
+    <!-- Insert to your webpage before the </head> -->
+    <script src="sliderengine/jquery.js"></script>
+    <script src="sliderengine/amazingslider.js"></script>
+    <link rel="stylesheet" type="text/css" href="sliderengine/amazingslider-1.css">
+    <script src="sliderengine/initslider-1.js"></script>
+    <!-- End of head section HTML codes -->
+    
+	<style>
+
+		#ul
+	{
+		list-style-type: none;
+		margin:10px;
+		padding:10px;
+		background-color: ;
+	}
+	#li
+	{float: left;}
+a#new:link
+{ display: block;
+width: 170px;
+height: 60px;
+font-size: 20px;
+text-decoration: none;
+line-height: 50px;
+text-align: center;
+margin-left:1px;
+color: red;
+border-radius: 40px 0px 30px 10px;
+border: 5px double red;
+background-color: red;
+ }
+ a#new:hover
+ {
+ 	background-color: black;
+ 	font-weight: bold;
+ 	color: white;
+ 	height: 65px;
+ }	body{margin: 0px;}
+		#maindiv
+		{
+background-color:red;
+width: 1000px;
+height: 1000px;
+border: 2px solid black;
+position:relative;
+margin-left: auto;
+margin-right: auto;
+		}
+#banner
+{ background-color: blue;
+	width: 1000px;
+	height:200px;
+	position:absolute;
+	text-align: center;
+	line-height: 200px;
+	border: 1px solid black;
+	background: linear-gradient(300deg,green,blue,white,pink,red,purple,white,yellow);
+	box-shadow: 10px 10px 50px red;
+ }
+ #menu
+{ background-color: purple;
+	width: 1000px;
+	height:100px;
+	position:absolute;
+	text-align: center;
+	line-height: 100px;
+	margin-top: 200px;
+		border: 1px solid black;
+		background: linear-gradient(850deg,black,yellow,red,black,yellow,red,black,yellow,red,white,yellow,red,black,yellow,red);
+	box-shadow: 10px 10px 70px black;
+
+ }
+ #news
+{ background-color: black;
+	width: 1000px;
+	height:50px;
+	position:absolute;
+	text-align: center;
+	line-height: 50px;
+	margin-top: 300px;
+		border: 1px solid black;
+
+ }
+ #slider
+{ background-color: white;
+	width: 1000px;
+	height:250px;
+	position:absolute;
+	text-align: center;
+	line-height: 250px;
+	margin-top: 350px;
+		border: 1px solid black;
+
+ }
+ #content
+{ background-color: pink;
+	width: 1000px;
+	height:350px;
+	position:absolute;
+	text-align: center;
+	line-height: 33px;
+	margin-top: 600px;
+		border: 1px solid black;
+ }
+ #footer
+{ background-color: red;
+	width: 1000px;
+	height:50px;
+	position:absolute;
+	text-align: center;
+	line-height: 50px;
+	margin-top: 950px;
+		border: 1px solid black;
+		background: linear-gradient(150deg,black,red,black,red,black,red);
+
+
+ }
+ #leftcontent
+{ background-color: skyblue;
+	width: 200px;
+	height:350px;
+	position:absolute;
+	text-align: center;
+	line-height: 22px;
+	margin-left:;
+		border: 1px solid black;
+ }
+ #rightcontent
+{ background-color:yellow;
+	width: 800px;
+	height:350px;
+	position:absolute;
+	text-align: center;
+	line-height: 30px;
+	margin-left: 200px;
+		border: 1px solid black;
+ }
+  
+     </style>
+}
+</head>
+<body>
+<div id="maindiv">
+	<div id="banner"><img src="images/newbnrr.jpg"></div>
+	<div id="menu"><font size="5">
+		<div style="margin-left:30px;">
+			<ul id="ul">
+	<li id="li"><a href="index.html" id="new" id="bad">HOME</a></li>
+	<li id="li"><a href="gallary.html" id="new">GALLARY</a></li>
+	<li id="li"><a href="audio.html" id="new">AUDIOS</a></li>
+	<li id="li"><a href="video.html" id="new">VIDEOS</a></li>
+	<li id="li"><a href="registration.html" id="new">REGISTRATION</a></li>
+
+</ul></div>
+	</font></div>
+	<div id="news"><marquee scrollamount="10" onmouseover="stop()" onmouseout="start()"><font size="5" color="white"><b><i>This is a beautiful website developed by SABRIM by using Html and Css.</i></b></font></marquee></div>
+	<div id="slider">
+		 
+   
+    <!-- Insert to your webpage where you want to display the slider -->
+    <div class="amazingslider-wrapper" id="amazingslider-wrapper-1" style="display:block;position:relative;max-width:1000px;margin:0px auto 6px;">
+        <div class="amazingslider" id="amazingslider-1" style="display:block;position:relative;margin:0 auto;">
+            <ul class="amazingslider-slides" style="display:none;">
+                <li><img src="images/s2.jpg" alt="s2"  title="s2" />
+                </li>
+                <li><img src="images/sq.jpg" alt="sq"  title="sq" />
+                </li>
+                <li><img src="images/sss.jpg" alt="sss"  title="sss" />
+                </li>
+                <li><img src="images/s9.jpg" alt="s9"  title="s9" />
+                </li>
+                <li><img src="images/s6.jpg" alt="s6"  title="s6" />
+                </li>
+                <li><img src="images/b1.jpg" alt="b1"  title="b1" />
+                </li>
+                <li><img src="images/nature-scenery-beauty.jpg" alt="nature-scenery-beauty"  title="nature-scenery-beauty" />
+                </li>
+            </ul>
+            <ul class="amazingslider-thumbnails" style="display:none;">
+                <li><img src="images/s2-tn.jpg" alt="s2" title="s2" /></li>
+                <li><img src="images/sq-tn.jpg" alt="sq" title="sq" /></li>
+                <li><img src="images/sss-tn.jpg" alt="sss" title="sss" /></li>
+                <li><img src="images/s9-tn.jpg" alt="s9" title="s9" /></li>
+                <li><img src="images/s6-tn.jpg" alt="s6" title="s6" /></li>
+                <li><img src="images/b1-tn.jpg" alt="b1" title="b1" /></li>
+                <li><img src="images/nature-scenery-beauty-tn.jpg" alt="nature-scenery-beauty" title="nature-scenery-beauty" /></li>
+            </ul>
+        </div>
+    </div>
+    <!-- End of body section HTML codes -->
+    
+	</div>
+	<div id="content">
+		<div id="leftcontent"><h1><b>HELLO</b></h1>ricana, a Nivordination on issues related to veterinary public health, with the particifor vfgvvvvvvvvvvvvv an on iricana, a Nivordination on issues related to veterinary public health, with the particifor collaboration and coordination on i</div>
+		<div id="rightcontent"><h1>LATEST ONLINE VIDEO SONGS</h1>
+
+<table border="1" bordercolor="red" align="center" width="600" bgcolor="yellow" height="150">
+	<tr>
+<td width="150"><video src="video/madely.mp4" controls height="150" width="150"" loop="2"></video></td>	
+	<td width="150"><video src="video/ohkhuda.mp4" controls height="150" width="150" poster="/7.jpg" loop="2"></video></td>	
+				<td width="150"><video src="video/merayar.mp4" controls height="150" width="150" poster="" loop="2"></video></td>
+				<td width="150"><video src="video/pak.mp4" controls height="150" width="150" poster="" loop="2"></video></td>
+	</tr>
+</table>
+<table border="1" bordercolor="red" align="center" width="600" bgcolor="yellow" height="10">
+	<tr>
+	<td width="150">Madely</td>
+	<td width="150">Oh khuda</td>
+	<td width="150">Mera yar</td>
+	<td width="150">me pakistan</td>
+	</tr>
+</table>
+<table border="1" bordercolor="red" align="center" width="600" bgcolor="yellow" height="10">
+	<tr>
+		<td width="150"><a href="video/madely.mp4" download>download</a></td>		<td width="150"><a href="video/ohkhuda.mp4" download>download</a></td>		<td width="150"><a href="video/merayar.mp4" download>download</a></td><td width="150"><a href="video/pak.mp4" download>download</a></td>
+	</tr>
+</table>
+
+
+		</div>
+
+</div>
+
+
+	<div id="footer"><font size="3" color="white">@@@ Thanks to visit  @@@</font></div>
+	
+
+
+</div>
+</body>
+</html>

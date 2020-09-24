@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ENGR.RIMSHA</title>
+	 <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+    
+    <!-- Insert to your webpage before the </head> -->
+    <script src="sliderengine/jquery.js"></script>
+    <script src="sliderengine/amazingslider.js"></script>
+    <link rel="stylesheet" type="text/css" href="sliderengine/amazingslider-1.css">
+    <script src="sliderengine/initslider-1.js"></script>
+    <!-- End of head section HTML codes -->
+    
+	<style>
+		ul
+	{
+		list-style-type: none;
+		margin:10px;
+		padding:10px;
+		background-color: ;
+	}
+	li
+	{float: left;}
+a:link
+{ display: block;
+width: 170px;
+height: 60px;
+font-size: 20px;
+text-decoration: none;
+line-height: 50px;
+text-align: center;
+margin-left:1px;
+color: red;
+border-radius: 40px 0px 30px 10px;
+border: 5px double red;
+background-color: red;
+ }
+ a:hover
+ {
+ 	background-color: black;
+ 	font-weight: bold;
+ 	color: white;
+ 	height: 65px;
+
+ }
+		body{margin: 0px;}
+		#maindiv
+		{
+background-color:red;
+width: 1000px;
+height: 1200px;
+border: 2px solid black;
+position:relative;
+margin-left: auto;
+margin-right: auto;
+		}
+#banner
+{ background-color: blue;
+	width: 1000px;
+	height:200px;
+	position:absolute;
+	text-align: center;
+	line-height: 200px;
+	border: 1px solid black;
+	background: linear-gradient(300deg,green,blue,white,pink,red,purple,white,yellow);
+	box-shadow: 10px 10px 50px red;
+ }
+ #menu
+{ background-color: yellow;
+	width: 1000px;
+	height:100px;
+	position:absolute;
+	text-align: center;
+	line-height: 100px;
+	margin-top: 200px;
+		border: 1px solid black;
+background: linear-gradient(220deg,white,black,green,yellow,black,white,yellow,skyblue,red,green,pink,black,white);
+	box-shadow: 10px 10px 70px black;
+ }
+ #news
+{ background-color: black;
+	width: 1000px;
+	height:50px;
+	position:absolute;
+	text-align: center;
+	line-height: 50px;
+	margin-top: 300px;
+		border: 1px solid black;
+ }
+ #slider
+{ background-color: white;
+	width: 1000px;
+	height:250px;
+	position:absolute;
+	text-align: center;
+	line-height: 250px;
+	margin-top: 350px;
+		border: 1px solid black;
+
+ }
+ #content
+{ background-color:;
+	width: 1000px;
+	height:550px;
+	position:absolute;
+	text-align: center;
+	line-height: 350px;
+	margin-top: 600px;
+		border: 1px solid black;
+
+ }
+ #footer
+{ background-color: red;
+	width: 1000px;
+	height:50px;
+	position:absolute;
+	text-align: center;
+	line-height: 50px;
+	margin-top: 1150px;
+		border: 1px solid black;
+		background: linear-gradient(150deg,black,red,black,red,black,red);
+
+ }
+ #signup
+{ background-color:black;
+	width: 600px;
+	height:550px;
+	position:absolute;
+	text-align:center;
+	line-height:30px;
+	margin-left: px;
+		border: 1px solid black;}
+	#alreadymem
+{ background-color:black;
+		border:1px solid black;
+	width: 400px;
+	height:550px;
+	position:absolute;
+	text-align: ;
+	line-height: 30px;
+	margin-left: 600px;}
+</style>
+</head>
+<body>
+<div id="maindiv">
+	<div id="banner"><img src="images/newbnrr.jpg"></div>
+	<div id="menu">
+		<div style="margin-left:30px;"><ul>
+	<li><a href="index.html">HOME</a></li>
+	<li><a href="gallary.html">GALLARY</a></li>
+	<li><a href="audio.html">AUDIOS</a></li>
+	<li><a href="video.html">VIDEOS</a></li>
+	<li><a href="registration.html">REGISTRATION</a></li>
+
+</ul></div>
+	</div>
+	<div id="news">
+		<marquee scrollamount="10" onmouseover="stop()" onmouseout="start()"><font size="5" color="white"><b><i>This is a beautiful website developed by SABRIM by using Html and Css.</i></b></font></marquee>
+	</div>
+	<div id="slider">
+		
+    <!-- Insert to your webpage where you want to display the slider -->
+    <div class="amazingslider-wrapper" id="amazingslider-wrapper-1" style="display:block;position:relative;max-width:1000px;margin:0px auto 6px;">
+        <div class="amazingslider" id="amazingslider-1" style="display:block;position:relative;margin:0 auto;">
+            <ul class="amazingslider-slides" style="display:none;">
+                <li><img src="images/s2.jpg" alt="s2"  title="s2" />
+                </li>
+                <li><img src="images/sq.jpg" alt="sq"  title="sq" />
+                </li>
+                <li><img src="images/sss.jpg" alt="sss"  title="sss" />
+                </li>
+                <li><img src="images/s9.jpg" alt="s9"  title="s9" />
+                </li>
+                <li><img src="images/s6.jpg" alt="s6"  title="s6" />
+                </li>
+                <li><img src="images/b1.jpg" alt="b1"  title="b1" />
+                </li>
+                <li><img src="images/nature-scenery-beauty.jpg" alt="nature-scenery-beauty"  title="nature-scenery-beauty" />
+                </li>
+            </ul>
+            <ul class="amazingslider-thumbnails" style="display:none;">
+                <li><img src="images/s2-tn.jpg" alt="s2" title="s2" /></li>
+                <li><img src="images/sq-tn.jpg" alt="sq" title="sq" /></li>
+                <li><img src="images/sss-tn.jpg" alt="sss" title="sss" /></li>
+                <li><img src="images/s9-tn.jpg" alt="s9" title="s9" /></li>
+                <li><img src="images/s6-tn.jpg" alt="s6" title="s6" /></li>
+                <li><img src="images/b1-tn.jpg" alt="b1" title="b1" /></li>
+                <li><img src="images/nature-scenery-beauty-tn.jpg" alt="nature-scenery-beauty" title="nature-scenery-beauty" /></li>
+            </ul>
+        </div>
+    </div>
+    <!-- End of body section HTML codes -->
+    
+	</div>
+	<div id="content">
+<div id="signup">
+<h1>Sign Up</h1>
+<table align="center" bgcolor="blue" height="450" width="500">
+	<form><tr>
+		<font color="" size="8"><td width="200"><font color="white" size="4">NAME</font></td>
+	<td><input size="40" placeholder="name"></td>
+</font>
+</tr>
+<font color="black" size="1"><td width="200"><font color="white" size="4">EMAIL</font></td>
+	<td><input type="email" size="40" placeholder="email address"></td>
+</font>
+</tr>
+<tr>
+<font color="black" size="1"><td width="200"><font color="white" size="4">PASSWORD</font></td>
+	<td><input type="password"size="40" placeholder="password"></td>
+</font>
+</tr>
+<tr>
+<font color="black">
+	<td width="200"><font color="white" size="4">GENDER</font></td>
+	<td>
+		<input type="radio" name="gender" value="male"><font color="white" size="3">Male</font>
+        <input type="radio" name="gender" value="female"><font color="white" size="3">Female</font>
+	</td>
+</font>
+</tr>
+<tr>
+<font color="black" size="1"><td width="200"><font color="white" size="4">HOBBIES</font></td>
+	<td><input type="checkbox" name="h1" value=" books"><font color="white" size="3">Reading books</font>
+<input type="checkbox" name="h2" value=" play"><font color="white" size="3">Playing</font>
+<input type="checkbox" name="h3" value=" sleep"><font color="white" size="3">Sleeping</font>
+	</td>
+</font>
+</tr>
+<tr>
+<font color="black" size="1"><td width="200"><font color="white" size="4">COUNTRY</font></td>
+	<td><select name="country"><option value="pak">pakistan</option><option value="ind">india</option><option value="chin">china</option></select></td>
+</font>
+</tr>
+<tr>
+<font color="black" size="1"><td width="200"><font color="white" size="4">UPLOAD</font></td>
+	<td><input type="file"></td>
+</font>
+</tr>
+<tr>
+<font color="black" size="1"><td width="200"><font color="white" size="4">COMMENT</font></td>
+	<td><textarea cols="40" rows="5"></textarea></td>
+</font>
+</tr>
+<tr>
+<font color="black" size="1"><td width="200"><font color="white" size="4">DATA</font></td>
+	<td><input type="submit" value="Sign Up"><input type="reset" value="Reset data"></td>
+</font>
+</tr></form>
+</table>
+	</div>	
+	<div id="alreadymem">
+		<h1>Log in</h1>
+	<table align="center" bgcolor="blue" height="200" width="300">
+	<form>
+		<tr width="300">
+		<td width="100"><font color="white" size="4">Email</font></td>
+	<td><input type="email" size="20" placeholder="email address"></td>
+</font>
+</tr>
+<tr width="300">
+<td width="100"><font color="white" size="4">Passsword</font></td>
+	<td><input type="password"size="20" placeholder="password"></td>
+</font>
+</tr>
+<tr>
+	<td><font color="white" size="4">Data</font></td>
+	<td><input type="submit" value="Log In"></td>
+</font>
+</tr>
+</form></table>
+	</div>	
+
+	</font></div>
+	<div id="footer"><font color="white" size="3">@@@ Thanks to visit  @@@</font></div>
+
+
+</div>
+</body>
+</html>

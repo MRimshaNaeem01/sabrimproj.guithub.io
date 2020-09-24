@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ENGR.RIMSHA</title>
+	 <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+    
+    <!-- Insert to your webpage before the </head> -->
+    <script src="sliderengine/jquery.js"></script>
+    <script src="sliderengine/amazingslider.js"></script>
+    <link rel="stylesheet" type="text/css" href="sliderengine/amazingslider-1.css">
+    <script src="sliderengine/initslider-1.js"></script>
+    <!-- End of head section HTML codes -->
+    
+	<style>
+
+		ul
+	{
+		list-style-type: none;
+		margin:10px;
+		padding:10px;
+		background-color: ;
+	}
+	li
+	{float: left;}
+a:link
+{ display: block;
+width: 170px;
+height: 60px;
+font-size: 20px;
+text-decoration: none;
+line-height: 50px;
+text-align: center;
+margin-left:1px;
+color: red;
+border-radius: 40px 0px 30px 10px;
+border: 5px double red;
+background-color: red;
+ }
+ a:hover
+ {
+ 	background-color: black;
+ 	font-weight: bold;
+ 	color: white;
+ 	height: 65px;
+
+ }
+		body{margin: 0px;}
+		#maindiv
+		{
+background-color:red;
+width: 1000px;
+height: 1000px;
+border: 2px solid black;
+position:relative;
+margin-left: auto;
+margin-right: auto;
+		}
+#banner
+{ background-color: blue;
+	width: 1000px;
+	height:200px;
+	position:absolute;
+	text-align: center;
+	line-height: 200px;
+	border: 1px solid black;
+	background: linear-gradient(300deg,green,blue,white,pink,red,purple,white,yellow);
+	box-shadow: 10px 10px 50px red;
+ }
+ #menu
+{ background-color: blue;
+	width: 1000px;
+	height:100px;
+	position:absolute;
+	text-align: center;
+	line-height: 100px;
+	margin-top: 200px;
+		border: 1px solid black;
+background: linear-gradient(150deg,white,skyblue,yellow,red,white,skyblue,yellow,red,white,skyblue,yellow,red);
+	box-shadow: 10px 10px 70px black;
+ }
+ #news
+{ background-color: black;
+	width: 1000px;
+	height:50px;
+	position:absolute;
+	text-align: center;
+	line-height: 50px;
+	margin-top: 300px;
+		border: 1px solid black;
+ }
+ #slider
+{ background-color: white;
+	width: 1000px;
+	height:250px;
+	position:absolute;
+	text-align: center;
+	line-height: 250px;
+	margin-top: 350px;
+		border: 1px solid black;
+
+ }
+ #content
+{ background-color: yellow;
+	width: 1000px;
+	height:350px;
+	position:absolute;
+	text-align: center;
+	line-height: 22px;
+	margin-top: 600px;
+		border: 1px solid black;
+
+ }
+ #footer
+{ background-color: red;
+	width: 1000px;
+	height:50px;
+	position:absolute;
+	text-align: center;
+	line-height: 50px;
+	margin-top: 950px;
+		border: 1px solid black;
+/*		background: linear-gradient(150deg,red,white,skyblue,red,white,skyblue);
+*/			
+background: linear-gradient(150deg,black,red,black,red,black,red);
+
+
+ }
+	</style>
+}
+</head>
+<body>
+<div id="maindiv">
+	<div id="banner"><img src="images/newbnrrrr.jpg"></div>
+	<div id="menu">
+		<div style="margin-left:30px;"><ul>
+	<li><a href="index.html">HOME</a></li>
+	<li><a href="gallary.html">GALLARY</a></li>
+	<li><a href="audio.html">AUDIOS</a></li>
+	<li><a href="video.html">VIDEOS</a></li>
+	<li><a href="registration.html">REGISTRATION</a></li>
+
+</ul></div>
+	</div>
+	<div id="news">
+		<marquee scrollamount="10" onmouseover="stop()" onmouseout="start()"><font size="5" color="white"><b><i>This is a beautiful website developed by SABRIM by using Html and Css.</i></b></font></marquee>
+	</div>
+	<div id="slider">
+		 
+   
+    <!-- Insert to your webpage where you want to display the slider -->
+    <div class="amazingslider-wrapper" id="amazingslider-wrapper-1" style="display:block;position:relative;max-width:1000px;margin:0px auto 6px;">
+        <div class="amazingslider" id="amazingslider-1" style="display:block;position:relative;margin:0 auto;">
+            <ul class="amazingslider-slides" style="display:none;">
+                <li><img src="images/s2.jpg" alt="s2"  title="s2" />
+                </li>
+                <li><img src="images/sq.jpg" alt="sq"  title="sq" />
+                </li>
+                <li><img src="images/sss.jpg" alt="sss"  title="sss" />
+                </li>
+                <li><img src="images/s9.jpg" alt="s9"  title="s9" />
+                </li>
+                <li><img src="images/s6.jpg" alt="s6"  title="s6" />
+                </li>
+                <li><img src="images/b1.jpg" alt="b1"  title="b1" />
+                </li>
+                <li><img src="images/nature-scenery-beauty.jpg" alt="nature-scenery-beauty"  title="nature-scenery-beauty" />
+                </li>
+            </ul>
+            <ul class="amazingslider-thumbnails" style="display:none;">
+                <li><img src="images/s2-tn.jpg" alt="s2" title="s2" /></li>
+                <li><img src="images/sq-tn.jpg" alt="sq" title="sq" /></li>
+                <li><img src="images/sss-tn.jpg" alt="sss" title="sss" /></li>
+                <li><img src="images/s9-tn.jpg" alt="s9" title="s9" /></li>
+                <li><img src="images/s6-tn.jpg" alt="s6" title="s6" /></li>
+                <li><img src="images/b1-tn.jpg" alt="b1" title="b1" /></li>
+                <li><img src="images/nature-scenery-beauty-tn.jpg" alt="nature-scenery-beauty" title="nature-scenery-beauty" /></li>
+            </ul>
+        </div>
+    </div>
+    <!-- End of body section HTML codes -->
+    
+	</div>
+	<div id="content"><br><img src="images/rim1.jpg" height="150" width="330" align="left" valign="top"><h1><b>Introduction of wanted baby</b></h1>
+		<p>Inter-American Ministerial Meeting on Health and Agriculture Inter-American Ministerial Meeting on Health and Agriculture Inter-American Ministerial Meeting on Health and Agriculture Inter-American Ministerialrial Meeting on Health and Agriculture Inter-American Ministerial Meeting on Health and Agriculture Inter-American Ministerial Meeting on Health and Agriculture Inter-American Ministerial Meeting on Health and Agriculture Inter-American Minial Meeting on Health and Agriculture Inter-American Ministerial Meeting on Health and Agriculture Inter-American Ministerial Meeting on Health and Agriculture Inter-American Ministealth and Agriculture Inter-American Ministerial Meeting on Health and Agriculture Inter-American Ministerial Meeting on Health and Agriculture Inter-American Ministerial Meeting on Health and Agricultuh and Agriculture Inter-American Ministerial Meeting on Health and Agriculture Inter-American Ministerial Meeting on Health and Agriculture Inter-American Ministerial Meeting on Health and Agriculture ter-American Ministerial Meeting on Health and Agriculture Inter-American Ministerial Meeting on Health and Agriculg on Health and Agriculture Inter-American Ministerial Meeting on Health and Agriculture Inter-American Ministerial Meeting on Health and Agriculture Inter-American Ministerial Meeting on Health and Agriculture .</p>
+
+	</div>
+	<div id="footer"><font size="3" color="white">@@@ Thanks to visit  @@@</font></div>
+
+
+</div>
+</body>
+</html>
